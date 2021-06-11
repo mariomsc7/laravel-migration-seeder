@@ -13,7 +13,7 @@ class DestinationController extends Controller
 
         //get all destinations
         $destinations = Destination::all();
-
+        
         return view('destinations', compact('destinations'));
     }
 }
