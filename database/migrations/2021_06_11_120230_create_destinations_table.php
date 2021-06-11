@@ -18,7 +18,7 @@ class CreateDestinationsTable extends Migration
             $table->string('country', 50);
             $table->string('city', 50);
             $table->string('resort', 100);
-            $table->float('amount', 8, 2)->unsigned();
+            $table->float('price', 8, 2)->unsigned();
             $table->text('description')->nullable();
             $table->boolean('is_available')->default(1);
             $table->timestamps();
